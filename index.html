@@ -8,7 +8,7 @@
   <meta name="keywords" content="бассейны Алматы, строительство бассейна, обслуживание бассейна, монтаж бассейна, ПВХ лайнер, химия для бассейна" />
   <meta property="og:title" content="PoolPro — Бассейны в Алматы" />
   <meta property="og:description" content="Строительство и обслуживание бассейнов в Алматы. Профессионально, надёжно, под ключ." />
-  <meta property="og:image" content="logo-image-2.JPG" />
+  <meta property="og:image" content="logo-image-2.jpg" />
   <meta property="og:type" content="website" />
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +16,6 @@
 </head>
 <body>
 
-  <!-- HEADER -->
   <header class="header">
     <div class="container header__inner">
       <img src="logo-image-2.jpg" alt="PoolPro логотип" class="logo__img" />
@@ -37,7 +36,6 @@
     </div>
   </header>
 
-  <!-- HERO -->
   <section class="hero">
     <div class="hero__content animate-fade">
       <div class="hero__badge">Алматы и область</div>
@@ -48,7 +46,6 @@
     </div>
   </section>
 
-  <!-- SERVICES -->
   <section class="services block-section" id="services">
     <div class="container">
       <h2 class="section-title">Наши услуги</h2>
@@ -92,8 +89,6 @@
     </div>
   </section>
 
-
-  <!-- FOOTER -->
 <footer class="footer block-section">
     <div class="footer__inner">
       <img src="logo-image-2.jpg" alt="Логотип" class="footer__logo-img" />
@@ -128,7 +123,6 @@
   </footer>
 
   <script>
-    // Intersection Observer for animate-up
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
     }, { threshold: 0.12 });
