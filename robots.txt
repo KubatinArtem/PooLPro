@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mishapoolpro.kz/sitemap.xml
